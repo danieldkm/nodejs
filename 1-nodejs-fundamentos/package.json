@@ -1,0 +1,25 @@
+{
+  "name": "1-nodejs-fundamentos",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "1": "node src/1-iniciando-servidor/server.js",
+    "1:watch": "node --watch src/1-iniciando-servidor/server.js",
+    "2": "node src/2-estrutura-app/server.js",
+    "2:watch": "node --watch src/2-estrutura-app/server.js",
+    "3": "node src/3-streams/index.js",
+    "3:watch": "node --watch src/3-streams/index.js",
+    "3.1": "node --watch src/3-streams/1-http/index.js",
+    "3.2": "node --watch src/3-streams/2-http/index.js",
+    "3.3": "node --watch src/3-streams/3-http/server.js",
+    "3.4": "node --watch src/3-streams/4-http/server.js",
+    "4": "node --watch src/4-banco-de-dados-local/index.js",
+    "5": "node --watch src/5-rotas-api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
