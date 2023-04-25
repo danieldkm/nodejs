@@ -1,0 +1,15 @@
+{
+  "name": "2-api-rest",
+  "version": "1.0.0",
+  "description": "O Fastify é um microframework para a criação de API no Node.js. Mas, por que não utilizar o Express?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
