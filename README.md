@@ -13,3 +13,6 @@ Para este projeto a versão do Node.js requerida é a 18.x
 #sql
 #zod
 #dotenv
+#vitest
+#tsup
+#supertest
