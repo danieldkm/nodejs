@@ -10,6 +10,14 @@ Nessa aula, você vai aprender sobre o que é deploy e como preparar a aplicaç�
 
 É uma ferramenta para trabalhar com TS, para fazer o processo de build
 
+Para isso vamos instalar o pacote
+
+```bash
+npm i -D tsup
+```
+
+Script para buildar
+
 ```bash
 tsup <src path> --out-dir <build path>
 ```
@@ -27,18 +35,18 @@ Obs.: Na plataforma Render, a variável ambiente para identificar a porta da apl
 Build Command: npm install && npm run knex -- migrate:latest && npm run build
 Start Command: node build/server.js
 
+1. Criar banco de dados PostgreSQL
+  - 90 dias para teste
 
-1. configurar o tsconfig
-3. instalar o tsup
-
-Para isso vamos instalar o pacote
+Para isso no projeto vamos instalar o pacote
 
 ```bash
-npm i -D tsup
+npm i pg
 ```
 
-2. converter para js
-
+2. Criar webservice para a api
+  - setar o projeto no github
+  - adicionar o root directory
 
 ## Deploy do app no fly
 
