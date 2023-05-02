@@ -1,0 +1,271 @@
+_type: export
+__export_format: 4
+__export_date: 2023-05-02T12:32:15.193Z
+__export_source: insomnia.desktop.app:v2023.2.0
+resources:
+  - _id: req_9528e464a36a4519a3eb291446e4d8c1
+    parentId: fld_028d8728995b4b77a8912e0144b41382
+    modified: 1683029789594
+    created: 1682943972668
+    url: "{{ _.base_url }}/meals"
+    name: Create Meals
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: >-
+        {
+        	"name": "Sanduíche8",
+        	"description": "Sanduíche de pão integral com atum e salada de alface e tomate",
+        	"fed_on": "2023-05-08T13:00:05.300Z",
+        	"on_diet": true
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+    authentication: {}
+    metaSortKey: -1682943972668
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_028d8728995b4b77a8912e0144b41382
+    parentId: wrk_cf3c0953f42942af84270bf1b1398f79
+    modified: 1682943970290
+    created: 1682943970290
+    name: Meals
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1682943970290
+    _type: request_group
+  - _id: wrk_cf3c0953f42942af84270bf1b1398f79
+    parentId: null
+    modified: 1682943493134
+    created: 1682943493134
+    name: Desafio 02 - Daily Diet API
+    description: ""
+    scope: collection
+    _type: workspace
+  - _id: req_8f2693ecad444667a5beec6e7ba686ba
+    parentId: fld_028d8728995b4b77a8912e0144b41382
+    modified: 1682978598016
+    created: 1682978522960
+    url: "{{ _.base_url }}/meals/57221caa-c628-48bf-9240-45dd377aa29c"
+    name: Update Meals
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: >-
+        {
+        	"name": "Sanduíche",
+        	"description": "Sanduíche de pão integral com atum e salada de alface e tomate",
+        	"date": "2023-05-01T13:00:05.300Z",
+        	"on_diet": false
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+    authentication: {}
+    metaSortKey: -1682943761832.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_7a05ea70594a40aba8170e92e3972354
+    parentId: fld_028d8728995b4b77a8912e0144b41382
+    modified: 1682979105013
+    created: 1682979079765
+    url: "{{ _.base_url }}/meals/22f13265-5d8e-47ba-80fe-22fcb134e339\t"
+    name: Delete Meals
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1682943656414.75
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_cd7f4cc1a94b4336b35203625cc54491
+    parentId: fld_028d8728995b4b77a8912e0144b41382
+    modified: 1683025351074
+    created: 1682980284943
+    url: "{{ _.base_url }}/meals/58f51aae-447b-4854-8596-ccb62e7570fd"
+    name: index Meals
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1682943603705.875
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_50665f00736d45898769c0bb0edff357
+    parentId: fld_0f0b67b1010d4aea898e64ae1bb7453f
+    modified: 1682944212045
+    created: 1682943550996
+    url: "{{ _.base_url }}/users"
+    name: Create Users
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"name": "Daniel K. Morita"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+    authentication: {}
+    metaSortKey: -1682943550997
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_0f0b67b1010d4aea898e64ae1bb7453f
+    parentId: wrk_cf3c0953f42942af84270bf1b1398f79
+    modified: 1682943549103
+    created: 1682943549103
+    name: Users
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1682943549103
+    _type: request_group
+  - _id: req_9a7628ea200a4125af335b99fcff9523
+    parentId: fld_0f0b67b1010d4aea898e64ae1bb7453f
+    modified: 1682979413057
+    created: 1682979403066
+    url: "{{ _.base_url }}/users/meals"
+    name: Show all meals Users
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1682725584675
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_c97abd74dc6d454d8b83819043ef27cd
+    parentId: fld_0f0b67b1010d4aea898e64ae1bb7453f
+    modified: 1683029178399
+    created: 1683029173414
+    url: "{{ _.base_url }}/summary"
+    name: Summary
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1682616601514
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: env_b8cba4b88ba62436e29a0acfa2dc1d1551e166af
+    parentId: wrk_cf3c0953f42942af84270bf1b1398f79
+    modified: 1682943493139
+    created: 1682943493139
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: null
+    color: null
+    isPrivate: false
+    metaSortKey: 1682943493139
+    _type: environment
+  - _id: jar_b8cba4b88ba62436e29a0acfa2dc1d1551e166af
+    parentId: wrk_cf3c0953f42942af84270bf1b1398f79
+    modified: 1683030529215
+    created: 1682943493140
+    name: Default Jar
+    cookies:
+      - key: userId
+        value: 8b444e29-dcde-4d90-b9ef-27421ae445ec
+        maxAge: 604800000
+        domain: localhost
+        path: /
+        hostOnly: true
+        creation: 2023-05-01T21:16:35.183Z
+        lastAccessed: 2023-05-02T10:49:07.446Z
+        id: "23680235966096919"
+        expires: null
+    _type: cookie_jar
+  - _id: spc_05f077176a1a43bb818815ef6503cb85
+    parentId: wrk_cf3c0953f42942af84270bf1b1398f79
+    modified: 1682943493135
+    created: 1682943493135
+    fileName: Desafio 02 - Daily Diet API
+    contents: ""
+    contentType: yaml
+    _type: api_spec
+  - _id: env_7c93438cc8974c64b68528e94d4aac2e
+    parentId: env_b8cba4b88ba62436e29a0acfa2dc1d1551e166af
+    modified: 1682973336137
+    created: 1682943496895
+    name: DEV
+    data:
+      base_url: http://localhost:3333
+    dataPropertyOrder:
+      "&":
+        - base_url
+    color: "#59ff00"
+    isPrivate: false
+    metaSortKey: 1682943496895
+    _type: environment
+  - _id: env_a6cdb4b48d7b4d648214aa8ccba59848
+    parentId: env_b8cba4b88ba62436e29a0acfa2dc1d1551e166af
+    modified: 1682973342702
+    created: 1682943528721
+    name: PRD
+    data:
+      base_url: http://localhost:3333
+    dataPropertyOrder:
+      "&":
+        - base_url
+    color: "#ff0000"
+    isPrivate: false
+    metaSortKey: 1682943496945
+    _type: environment
