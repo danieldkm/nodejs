@@ -5,8 +5,8 @@ node_modules
 db/*.db
 
 # environment
-.env
-.env.test
+# .env
+# .env.test
 
 # build
 dist
