@@ -1,0 +1,16 @@
+{
+  "name": "sqlite-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --inspect --watch --experimental-sqlite src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "sql-bricks": "^3.0.1"
+  }
+}
